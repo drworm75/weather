@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	let userZip;
 
-	apiKey = "58b63a593de911f64d9ac764e3786ada";
+	
 
 	const writeToDom = (results) => {
 		let outputString = "";
