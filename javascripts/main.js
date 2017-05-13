@@ -145,6 +145,21 @@ $(document).ready(function() {
 		});
 	};
 
+	$( function () {
+
+    $('#login-form-link').click(function(e) {
+		$("#login-form").delay(100).fadeIn(100);
+ 		$("#register-form").fadeOut(100);
+		e.preventDefault();
+	});
+	$('#register-form-link').click(function(e) {
+		$("#register-form").delay(100).fadeIn(100);
+ 		$("#login-form").fadeOut(100);
+		e.preventDefault();
+	});
+
+});
+
 	// 	const loadForecast = (count) => {
 	// 	let apiCallForecast = `http://api.openweathermap.org/data/2.5/forecast/daily?id=${cityID}&cnt=${count}&appid=${apiKey}`;
 	// 	return new Promise ((resolve, reject) => {
