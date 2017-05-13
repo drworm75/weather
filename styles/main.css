@@ -1,0 +1,14 @@
+.panel-heading {
+  width: 100%; }
+
+.col-sm-3 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-left: 15px;
+  margin-right: 15px; }
+
+@media (min-width: 768px) {
+  .col-sm-3 {
+    width: 20%; } }
